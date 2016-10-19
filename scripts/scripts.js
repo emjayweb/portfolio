@@ -1,22 +1,6 @@
-body {overflow: hidden;}
 //when page is scrolled//
-function yScroll(){
-	var header = document.getElementsByTagName('header')[0];
-	yPos = window.pageYOffset;
-	if (yPos > 200){
-		header.style.backgroundColor = "rgba(0,0,0,1)";
-		header.style.top = "14%";		
-		header.style.left = "0%";
-		header.style.marginLeft = "0px";}
-	else {
-		header.style.backgroundColor = "rgba(0,0,0,0.8)";
-		header.style.top = "50%";		
-		header.style.left = "50%";
-		header.style.marginLeft = "-200px";}
-}
-
-function heatherscroll(){
-	
+function heatherscroll(occur){
+	occur.preventDefault();
 	var heather = document.getElementById('titlesection');
 	yPos = window.pageYOffset;
 	if (yPos > 300){
@@ -28,9 +12,7 @@ function heatherscroll(){
 		heather.style.width = '200px';
 	}
 }
-
-window.addEventListener('scroll', heatherscroll);
-window.addEventListener('scroll', yScroll);
+window.addEventListener('scroll', heatherscroll, false);
 $(document).ready(function(){
 //set the time and date//
 	$('#datedate').text(ledate);
