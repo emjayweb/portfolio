@@ -1,0 +1,49 @@
+<!DOCTYPE HTML><html><head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"/>
+<link href="stylesheet/main.css" rel="stylesheet"/>
+<link href="stylesheet/weather-icons.min.css" rel="stylesheet" />
+<title>emjayweb</title>
+</head><body>
+<div id="mainpage">
+<!--Heads--><div id="headsection">
+<h1>Houston, TX</h1>
+<!--Weather Section -->
+<div id="weathersection">
+	<div id="datesection">
+		<div id="datedate"></div>
+		<div id="datetime"></div>
+	</div>	
+	<div id="weathers">
+	<span id="currentweather"></span>
+	<span>&deg;F</span>
+	<div id="aicon"></div>
+	<div id="currentstate"></div>
+	</div>
+</div>
+<!--End of Weather Section -->
+<!--End of Heads--></div>
+<div id="maincontainer">
+<header>
+<div id="titlesection"><h1>emjayweb</h1></div>
+<nav><ul>
+<li>updates</li>
+</ul></nav>
+</header></div></div>
+<!--Update Section-->
+<div id="updates" class="container">
+<div id="updatesection"></div>
+</div>
+<!--End of Update Section-->
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.5/moment-timezone-with-data.min.js"></script>
+<script src="scripts/scripts.js"></script>
+<!--REACTDOM-->
+<script src="https://unpkg.com/react@15.3.2/dist/react.min.js"></script>
+<script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.min.js"></script>
+<script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+<script src="scripts/updatesection.jsx" type="text/babel"></script>
+<!--End of REACTDOM-->
+</body></html>

@@ -1,0 +1,25 @@
+@mixin transition($duration) {
+    -webkit-transition: $duration;
+    -moz-transition: $duration;
+    -ms-transition: $duration;
+    -o-transition: $duration;
+    transition: $duration;}
+
+img {max-width: 100%;}
+ul li {list-style-type: none;}
+header { @include transition(0.3s); width: 100%; background: rgba(0, 0, 0, 0.8); position: fixed; top: 50%; left: 50%; margin-top: -150px; margin-left: -200px;}
+h1, li, h4, h2, p {font-family: 'Dosis', sans-serif;}
+header h1, li, h4 {margin-left: 80px;  color: white;}
+#datesection {font-size: 18px;}
+p {font-size: 17px;}
+header li {font-size: 20px; margin: 4px 4px 0px 8px; display: inline-block;}
+@media (max-width: 400px) {header li {display: block;} }
+#mainpage { height: 700px; background-attachment: fixed; background-image:url('../img/bground.jpg');background-size:cover; background-repeat: no-repeat; }
+.update_header { font-weight: bold; text-decoration: underline; }
+#update_title {color: green;}
+#headsection {position: absolute; color: white;}
+#weathersection span {font-size: 18px;}
+#weathersection {font-family: 'Dosis', sans-serif;}
+#weathers {background-color: rgba(0, 0, 0, 0.5); text-align: center; margin-top: 15px; }
+.wi {font-size: 30px;}
+#updates {height: 900px;}
