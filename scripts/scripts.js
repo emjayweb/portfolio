@@ -13,6 +13,21 @@ function yScroll(){
 		header.style.left = "50%";
 		header.style.marginLeft = "-200px";}
 }
+
+function heatherscroll(){
+	var heather = document.getElementById('titlesection');
+	yPos = window.pageYOffset;
+	if (yPos > 300){
+		heather.style.backgroundColor = 'rgba(0, 0, 0, 1)';
+		heather.style.width = '100%';
+	}
+	else {
+		heather.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+		heather.style.width = '200px';
+	}
+}
+
+window.addEventListener('scroll', heatherscroll);
 window.addEventListener('scroll', yScroll);
 $(document).ready(function(){
 //set the time and date//
