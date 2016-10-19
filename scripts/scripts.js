@@ -1,3 +1,4 @@
+body {overflow: hidden;}
 //when page is scrolled//
 function yScroll(){
 	var header = document.getElementsByTagName('header')[0];
@@ -15,6 +16,7 @@ function yScroll(){
 }
 
 function heatherscroll(){
+	
 	var heather = document.getElementById('titlesection');
 	yPos = window.pageYOffset;
 	if (yPos > 300){
