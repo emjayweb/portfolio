@@ -14,7 +14,7 @@ header h1, li, h4 {margin-left: 80px;  color: white;}
 p {font-size: 17px;}
 header li {font-size: 20px; margin: 4px 4px 0px 8px; display: inline-block;}
 @media (max-width: 400px) {header li {display: block;} }
-#mainpage { height: 700px; background-attachment: fixed; background-image:url('../img/bground.jpg');background-size:cover; background-repeat: no-repeat; }
+#mainpage { height: 700px; background-position: center; background-attachment: fixed; background-image:url('../img/bground.jpg');background-size:cover; background-repeat: no-repeat; }
 .update_header { font-weight: bold; text-decoration: underline; }
 #update_title {color: green;}
 #headsection {position: absolute; color: white;}
@@ -23,7 +23,11 @@ header li {font-size: 20px; margin: 4px 4px 0px 8px; display: inline-block;}
 #weathers {background-color: rgba(0, 0, 0, 0.5); text-align: center; margin-top: 15px; }
 .wi {font-size: 30px;}
 #updates {height: 900px;}
-#titlesection { transition: 0.3s ease; width: 200px; position: fixed; background-color: rgba(0, 0, 0, 0.7); right: 0; padding-right: 10px; padding-left: 10px;}
+#titlesection { transition: 0.3s ease; width: 200px; position: fixed; background-color: rgba(0, 0, 0, 0.7); right: 0; }
 #titlesectioncontent {text-align:center;}
 #titlesectioncontent h1 {margin-top: 0px;}
-#titlesectioncontent li {margin:0px; text-align: left; font-size: 19px;}
+#itempanel {position: fixed; right: 0; margin-top: 250px; margin-right: 5px;}
+#itempanel li, #itempanel ul {margin: 0px;}
+#itempanel i { color: tomato; background-color: antiquewhite; font-size: 30px;margin: 4px; border: 1px solid rosybrown; }
+.itemhold {text-align: center; cursor: pointer;}
+#mainpagesheet {display: none; height: 700px; background-position: center; background-attachment: fixed; background-size:cover; background-repeat: no-repeat;}

@@ -1,3 +1,13 @@
+$('#updateclick').click(function(){
+	$('html, body').animate({
+		scrollTop: $('#updates').offset().top-83}, 'slow');
+});
+
+$('#homeclick').click(function(){
+	$('html, body').animate({
+		scrollTop: $('#mainpage').offset().top}, 'slow');
+});
+
 //when page is scrolled//
 function heatherscroll(occur){
 	occur.preventDefault();
@@ -35,25 +45,35 @@ var letime = moment().tz(ledefault).format('h'+':'+'mm'+':ss'+' '+'a');
 	$('#datetime').text(letime);}	
 setInterval(tracktime, 1000);
 setInterval(trackdate, 1000);
-//change image based on dates//
-if ((leday) === 'Sunday'){$('#mainpage').css('background-image', 'url(img/sundays.jpg)');}
-else if ((leday) === 'Monday'){$('#mainpage').css('background-image', 'url(img/mondays.jpg)');}
+//change background based on dates//
+if ( (leday) === 'Friday' ){ 
+	$('#mainpagesheet').css('background-image', 'url(img/fridays.jpg)'); 
+	$('#mainpagesheet').fadeIn();
+}
+else if ( (leday) === 'Sunday' ){
+	$('#mainpagesheet').css('background-image', 'url(img/sundays.jpg)');
+	$('#mainpagesheet').fadeIn();
+}
+else if ( (leday) === 'Monday' ){
+	$('#mainpagesheet').css('background-image', 'url(img/mondays.jpg)');
+	$('#mainpagesheet').fadeIn();
+}
 //weather//
 function findweather(){
 $.getJSON('https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22houston%2C%20tx%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys', function(delta){
+	var weathercon = delta.query.results.channel.item.condition.text;
+	
 	$('#currentweather').html(delta.query.results.channel.item.condition.temp);
-	$('#currentstate').html(delta.query.results.channel.item.condition.text);
-});	
-}
-
-//weather icons//
-function iconcheck(){
-	if ($('#currentstate:contains("Partly Cloudy")'))
+	$('#currentstate').html(weathercon);
+	
+	if ( weathercon === "Sunny" )
+	{ $('#aicon').html('<i class="wi wi-day-sunny"></i>'); }
+	else if (weathercon === "Partly Cloudy")
 	{ $('#aicon').html('<i class="wi wi-cloud"></i>'); }
+	else if (weathercon === "Mostly Cloudy")
+	{ $('#aicon').html('<i class="wi wi-cloudy"></i>'); }	
+});
 }
-
 setInterval(findweather, 300000);	
-setInterval(iconcheck, 300000);
 findweather();
-iconcheck();
 });

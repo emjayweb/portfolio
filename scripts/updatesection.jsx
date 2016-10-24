@@ -3,9 +3,11 @@ var UpdateScript = React.createClass({
 		return (<div>
 			<h1 id="update_title">Updates</h1>
 			<p className="update_header">October 19, 2016</p>
-			<p>Welcome to my site! It's still under construction at the moment, so content is a little light. Expect to see updates made to this site at least once every week from this point onwards. Definitely expect to see a few open-source projects.</p>
-			<p>I am also opening myself to perform free web development for any non-profit causes. If you know of a non-profit cause that requires a web developer, please do not hesitate to let me know.</p>
-			<p>You can reach me at moyjohnsen@aol.com</p>
+<p>A new site. Again. Only this time it's official.</p>
+<p>As the first update notification for my new site, my goal is to complete the bare necessities by the end of this week. 
+I am leaving out the portfolio section for next week. Everything added to it will be new content.</p>
+<p>In keeping with personal tradition, my weekly updates for the site will be posted every Wednesday. Come this Sunday expect to see a bare-bones but functioning 
+website. This will be more feature-complete after my Week 2 update.</p>
 			</div>);
 	}
 });
