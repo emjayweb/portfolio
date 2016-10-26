@@ -7,8 +7,7 @@
 
 img {max-width: 100%;}
 ul li {list-style-type: none;}
-/*header { @include transition(0.3s); width: 100%; background: rgba(0, 0, 0, 0.8); position: fixed; top: 50%; left: 50%; margin-top: -150px; margin-left: -200px;}*/
-h1, li, h4, h2, p {font-family: 'Dosis', sans-serif;}
+h1, li, h4, h2, p, h3 {font-family: 'Dosis', sans-serif;}
 header h1, li, h4 {margin-left: 80px;  color: white;}
 #datesection {font-size: 18px;}
 p {font-size: 17px;}
@@ -17,17 +16,41 @@ header li {font-size: 20px; margin: 4px 4px 0px 8px; display: inline-block;}
 #mainpage { height: 700px; background-position: center; background-attachment: fixed; background-image:url('../img/bground.jpg');background-size:cover; background-repeat: no-repeat; }
 .update_header { font-weight: bold; text-decoration: underline; }
 #update_title {color: green;}
-#headsection {position: absolute; color: white;}
+#headsection {position: absolute; color: white; padding-left: 5px;}
 #weathersection span {font-size: 18px;}
 #weathersection {font-family: 'Dosis', sans-serif;}
 #weathers {background-color: rgba(0, 0, 0, 0.5); text-align: center; margin-top: 15px; }
 .wi {font-size: 30px;}
 #updates {height: 900px;}
-#titlesection { transition: 0.3s ease; width: 200px; position: fixed; background-color: rgba(0, 0, 0, 0.7); right: 0; }
+#titlesection { z-index: 3; transition: 0.3s ease; width: 200px; position: fixed; background-color: rgba(0, 0, 0, 0.7); right: 0; }
 #titlesectioncontent {text-align:center;}
 #titlesectioncontent h1 {margin-top: 0px;}
-#itempanel {position: fixed; right: 0; margin-top: 250px; margin-right: 5px;}
+#itempanel { z-index: 3; position: fixed; right: 0; margin-top: 250px; margin-right: 5px;}
 #itempanel li, #itempanel ul {margin: 0px;}
 #itempanel i { color: tomato; background-color: antiquewhite; font-size: 30px;margin: 4px; border: 1px solid rosybrown; }
 .itemhold {text-align: center; cursor: pointer;}
-#mainpagesheet {display: none; height: 700px; background-position: center; background-attachment: fixed; background-size:cover; background-repeat: no-repeat;}
+#mainpagesheet { height: 700px; background-position: center; background-attachment: fixed; background-size:cover; background-repeat: no-repeat;}
+/*flip anim*/
+.front, .back {width: 100%;height: 100%;}
+.flipper {transition: 0.6s;transform-style: preserve-3d;position: relative;}
+.front, .back {backface-visibility: hidden;transition: 0.6s;transform-style: preserve-3d;position: absolute;top: 0;left: 0;}
+.front {z-index: 2;transform: rotateY(0deg);}
+.back {transform: rotateY(-180deg);}
+.verticalflip-container {position: relative;}
+.vertical .back {transform: rotateX(180deg);}
+
+#pricetainer {margin-top: 15px;}
+#pricetainer h1 {color: green;}
+.hilite {font-weight: bold; text-decoration: underline; }
+.disclaim {font-style: italic;}
+#pfolioh {background-color: steelblue;}
+#ppressh {background-color: magenta;}
+#pbuspackh {background-color: #1a1a1a;}
+#papph {background-color: orange;}
+#pcopyh {background-color: green;}
+.pheather {border-radius: 15px;}
+.pheather h4 {margin: 10px 0px 0px 0px; padding: 5px;}
+.pricetag {float: right;}
+.pcontent { text-align:center; border-radius: 0px 0px 15px 15px; background-color: beige; width: 90%; display: block; margin: 0 auto; }
+.pcontent tr {border-bottom: 1px solid white;}
+.pcontent tr td:first-child {font-weight: bold;}

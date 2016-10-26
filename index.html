@@ -23,6 +23,7 @@
 <ul>
 	<li id="homeclick" class="itemhold"><i class="material-icons">&#xE88A;</i></li>
 	<li id="updateclick" class="itemhold"><i class="material-icons">&#xE850;</i></li>
+	<li id="shopclick" class="itemhold"><i class="material-icons">&#xE8CC;</i></li>
 </ul>
 </div><!--End of ItemPanel-->
 <h1>Houston, TX</h1>
@@ -46,7 +47,21 @@
 
 <!--Update Section-->
 <div id="updates" class="container">
+
+<div class="verticalflip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="vertical flipper">
+<div class="vertical front">
 <div id="updatesection"></div>
+</div>
+<div id="offers" class="vertical back">
+<div id="pricesection"></div>
+</div>
+</div>
+</div>
+
+
+
+
 </div>
 <!--End of Update Section-->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
@@ -59,5 +74,6 @@
 <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.min.js"></script>
 <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
 <script src="scripts/updatesection.jsx" type="text/babel"></script>
+<script src="scripts/pricesection.jsx" type="text/babel"></script>
 <!--End of REACTDOM-->
 </body></html>

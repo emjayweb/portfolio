@@ -1,6 +1,16 @@
+//when shopping is toggled//
+$('#shopclick').click(function(){
+	$('html, body').animate({
+		scrollTop: $('#updates').offset().top-83}, 'slow');
+	$('.front').css('transform', 'rotateX(180deg)');
+	$('.back').css('transform', 'rotateX(0deg)');
+	});
+	
 $('#updateclick').click(function(){
 	$('html, body').animate({
 		scrollTop: $('#updates').offset().top-83}, 'slow');
+	$('.front').css('transform', 'rotateX(0deg)');
+	$('.back').css('transform', 'rotateX(180deg)');
 });
 
 $('#homeclick').click(function(){
