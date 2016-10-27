@@ -134,10 +134,11 @@ function PriceList(){
 					</tr>
 					<tr>
 						<td>Special Notes</td>
-						<td>This monthly packet includes copywriting
+						<td>We audit your site and examine strategies for improving your online search rank. This monthly packet also includes copywriting
                         services with a twist; you are regularly consulted for weekly articles so that the content properly represents not only 
                             your trade, but your business. In addition, each article is written with an accompanying JavaScript function 
-                            (interactive tutorial/demonstration, calculator, etc) to ensure that your content is unique, interesting, and insightful. At the end of each month we produce a report detailing your SEO rankings.</td>
+                            (interactive tutorial/demonstration, calculator, etc) to ensure that your content is unique, interesting, and quality. At the end of 
+							each month we produce a report detailing your SEO rankings.</td>
 					</tr>
 				</table>
 			</div>
