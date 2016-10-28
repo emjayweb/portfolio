@@ -54,7 +54,7 @@ function PriceList(){
 					</tr>
 					<tr>
 						<td>Special Notes</td>
-						<td>Ideal for individuals and businesses who would like to establish a 4-page site (home, about, contact, services) with a pre-built Wordpress theme that has a functioning contact form.</td>
+						<td>For individuals and businesses who would like to establish a 4-page site (home, about, contact, services) with a pre-built Wordpress theme that has a functioning contact form.</td>
 					</tr>
 				</table>
 			</div>
