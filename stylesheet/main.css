@@ -115,6 +115,7 @@ header li {
   position: relative; }
 
 .front, .back {
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: 0.6s;
   transform-style: preserve-3d;
