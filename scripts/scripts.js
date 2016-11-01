@@ -38,7 +38,7 @@ $(document).ready(function(){
 	$('#datedate').text(ledate);
 	$('#datetime').text(letime);
 
-var ledefault = 'America/Mexico_City';
+var ledefault = 'America/Matamoros';
 var leday = moment().tz(ledefault).format('dddd');
 var ledate = moment().tz(ledefault).format(leday+', '+'MMM'+' '+'gg');
 var letime = moment().tz(ledefault).format('h'+':'+'mm'+':ss'+' '+'a');
@@ -49,7 +49,7 @@ $('#datedate').text(ledate);}
 	
 function tracktime(){
 //track the time and date//	
-var ledefault = 'America/Mexico_City';
+var ledefault = 'America/Matamoros';
 var ledate = moment().tz(ledefault).format('dddd'+', '+'MMM'+' '+'gg');
 var letime = moment().tz(ledefault).format('h'+':'+'mm'+':ss'+' '+'a');	
 	$('#datetime').text(letime);}	
