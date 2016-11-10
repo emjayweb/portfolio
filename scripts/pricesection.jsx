@@ -62,7 +62,7 @@ function PriceList(){
 
 		<div id="pbuspack" className="col-md-4 col-sm-6 col-xs-12">
 			<div id="pbuspackh" className="pheather">
-				<h4>3-Month Business Plan <span className="pricetag">$2,200  monthly</span></h4>
+				<h4>3-Month Business Plan <span className="pricetag">$3,000 monthly</span></h4>
 			</div>
 			<div className="pcontent">
 				<table className="table">
@@ -90,7 +90,7 @@ function PriceList(){
         
 		<div id="papp" className="col-md-4 col-sm-6 col-xs-12">
 			<div id="papph" className="pheather">
-				<h4>Web Application <span className="pricetag">$2,200</span></h4>
+				<h4>Web Application <span className="pricetag">$3,000</span></h4>
 			</div>
 			<div className="pcontent">
 				<table className="table">
@@ -116,7 +116,7 @@ function PriceList(){
 
 		<div id="pcopy" className="col-md-4 col-sm-6 col-xs-12">
 			<div id="pcopyh" className="pheather">
-				<h4>Comprehensive SEO<span className="pricetag">$3,000 monthly</span></h4>
+				<h4>Digital Marketing<span className="pricetag">$3,000 monthly</span></h4>
 			</div>
 			<div className="pcontent">
 				<table className="table">
@@ -134,10 +134,11 @@ function PriceList(){
 					</tr>
 					<tr>
 						<td>Special Notes</td>
-						<td>This monthly packet includes copywriting
-                        services with a twist; you are regularly consulted for weekly articles so that the content properly represents not only 
-                            your trade, but your business. In addition, each article is written with an accompanying JavaScript function 
-                            (interactive tutorial/demonstration, calculator, etc) to ensure that your content is unique, interesting, and insightful. At the end of each month we produce a report detailing your SEO rankings.</td>
+						<td>
+							A one-month package for digital marketing. Includes a personalized strategy for SEO, 
+							content creation including marketing collateral, article writing, analytics, Facebook ad targeting, and more. 
+							At the end of the month we produce a report detailing page views, online sales numbers, and more.
+						</td>
 					</tr>
 				</table>
 			</div>

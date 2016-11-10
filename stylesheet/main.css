@@ -4,6 +4,9 @@ img {
 ul li {
   list-style-type: none; }
 
+a {
+  color: orange; }
+
 h1, li, h4, h2, p, h3 {
   font-family: 'Dosis', sans-serif; }
 
@@ -186,5 +189,37 @@ header li {
 
 .pcontent tr td:first-child {
   font-weight: bold; }
+
+#pframe {
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+.pitemsel {
+  height: 150px !important; }
+
+.unassigneda {
+  cursor: pointer; }
+
+#portfoliocover {
+  background-color: black;
+  color: white;
+  padding-top: 10px; }
+
+#portfoliocover h1 {
+  margin-top: 0px; }
+
+#viewitems {
+  margin-top: 15px; }
+
+.pframeimage {
+  max-width: 200px; }
+
+#datechosen {
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */

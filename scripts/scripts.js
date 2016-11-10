@@ -13,6 +13,12 @@ $('#updateclick').click(function(){
 	$('.back').css('transform', 'rotateX(180deg)');
 });
 
+$('#pfolioclick').click(function(){
+	$('html, body').animate({
+		scrollTop: $('#portfoliosection').offset().top-83}, 'slow');
+});
+
+
 $('#homeclick').click(function(){
 	$('html, body').animate({
 		scrollTop: $('#mainpage').offset().top}, 'slow');

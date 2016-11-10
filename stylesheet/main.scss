@@ -7,6 +7,7 @@
 
 img {max-width: 100%;}
 ul li {list-style-type: none;}
+a {color: orange;}
 h1, li, h4, h2, p, h3 {font-family: 'Dosis', sans-serif;}
 header h1, li, h4 {margin-left: 80px;  color: white;}
 #datesection {font-size: 18px;}
@@ -54,3 +55,12 @@ header li {font-size: 20px; margin: 4px 4px 0px 8px; display: inline-block;}
 .pcontent { text-align:center; border-radius: 0px 0px 15px 15px; background-color: beige; width: 90%; display: block; margin: 0 auto; }
 .pcontent tr {border-bottom: 1px solid white;}
 .pcontent tr td:first-child {font-weight: bold;}
+#pframe { height: 0px; overflow: hidden; @include transitian(0.3s ease);}
+.pitemsel {height: 150px !important;}
+.unassigneda {cursor:pointer;}
+
+#portfoliocover {background-color: black; color: white; padding-top: 10px;}
+#portfoliocover h1 {margin-top: 0px;}
+#viewitems {margin-top: 15px;}
+.pframeimage {max-width: 200px;}
+#datechosen {margin-bottom: 10px;}
