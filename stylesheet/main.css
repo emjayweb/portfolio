@@ -7,7 +7,7 @@ ul li {
 a {
   color: orange; }
 
-h1, li, h4, h2, p, h3 {
+h1, li, h4, h2, p, h3, h5 {
   font-family: 'Dosis', sans-serif; }
 
 header h1, li, h4 {
@@ -35,6 +35,57 @@ header li {
   background-image: url("../img/bground.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
+
+.toolshead {
+  color: white; }
+
+.martop {
+  margin-top: 15px; }
+
+#actsearch {
+  width: 50%;
+  margin: 0 auto; }
+
+.toolscons {
+  display: block; }
+
+.toolsec {
+  border: 1px solid #333;
+  text-align: center;
+  cursor: pointer; }
+
+.toolsec a {
+  color: inherit; }
+
+.toolsec a:hover {
+  text-decoration: none; }
+
+.padtop {
+  padding-top: 10px; }
+
+#toolspage {
+  z-index: 3;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  height: 700px;
+  background-color: crimson;
+  position: absolute;
+  width: 0%;
+  overflow: hidden; }
+
+#toolspage h2 {
+  color: yellowgreen; }
+
+.toolsframe {
+  border-radius: 15px;
+  border: 3px solid white;
+  padding: 5px; }
+
+#pgen_frame {
+  background-color: skyblue; }
 
 .update_header {
   font-weight: bold;
@@ -83,7 +134,7 @@ header li {
   z-index: 3;
   position: fixed;
   right: 0;
-  margin-top: 200px;
+  margin-top: 180px;
   margin-right: 5px; }
 
 #itempanel li, #itempanel ul {

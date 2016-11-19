@@ -1,3 +1,9 @@
+$('#toolclick').click(function(){
+	$('html, body').animate({
+		scrollTop: $('#mainpage').offset().top}, 'slow');
+		$('#toolspage').css('width', '100%');
+	});
+
 //when shopping is toggled//
 $('#shopclick').click(function(){
 	$('html, body').animate({
@@ -22,6 +28,7 @@ $('#pfolioclick').click(function(){
 $('#homeclick').click(function(){
 	$('html, body').animate({
 		scrollTop: $('#mainpage').offset().top}, 'slow');
+		$('#toolspage').css('width', '0%');
 });
 
 //when page is scrolled//

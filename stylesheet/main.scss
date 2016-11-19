@@ -8,13 +8,28 @@
 img {max-width: 100%;}
 ul li {list-style-type: none;}
 a {color: orange;}
-h1, li, h4, h2, p, h3 {font-family: 'Dosis', sans-serif;}
+h1, li, h4, h2, p, h3, h5 {font-family: 'Dosis', sans-serif;}
 header h1, li, h4 {margin-left: 80px;  color: white;}
 #datesection {font-size: 18px;}
 p {font-size: 17px;}
 header li {font-size: 20px; margin: 4px 4px 0px 8px; display: inline-block;}
 @media (max-width: 400px) {header li {display: block;} }
 #mainpage { height: 700px; background-position: center; background-attachment: fixed; background-image:url('../img/bground.jpg');background-size:cover; background-repeat: no-repeat; }
+
+.toolshead {color: white;}
+.martop {margin-top: 15px;}
+#actsearch {width: 50%; margin: 0 auto;}
+.toolscons {display: block;}
+.toolsec { border: 1px solid #333; text-align: center; cursor: pointer;}
+.toolsec a {color: inherit;}
+.toolsec a:hover {text-decoration:none;}
+.padtop {padding-top: 10px;}
+
+#toolspage {z-index: 3; @include transitian(0.3s ease); height: 700px; background-color: crimson; position: absolute; width: 0%; overflow: hidden; }
+#toolspage h2 {color: yellowgreen;}
+.toolsframe { border-radius: 15px; border: 3px solid white; padding: 5px; }
+#pgen_frame {background-color: skyblue;}
+
 .update_header { font-weight: bold; text-decoration: underline; }
 #update_title {color: green;}
 #headsection {position: absolute; color: white; padding-left: 5px;}
@@ -26,14 +41,14 @@ header li {font-size: 20px; margin: 4px 4px 0px 8px; display: inline-block;}
 #titlesection { z-index: 3; transition: 0.3s ease; width: 200px; position: fixed; background-color: rgba(0, 0, 0, 0.7); right: 0; }
 #titlesectioncontent {text-align:center;}
 #titlesectioncontent h1 {margin-top: 0px;}
-#itempanel { z-index: 3; position: fixed; right: 0; margin-top: 200px; margin-right: 5px;}
+#itempanel { z-index: 3; position: fixed; right: 0; margin-top: 180px; margin-right: 5px;}
 #itempanel li, #itempanel ul {margin: 0px;}
 #itempanel i { color: tomato; background-color: antiquewhite; font-size: 30px;margin: 4px; border: 1px solid rosybrown; }
 .itemhold {text-align: center; cursor: pointer;}
 #mainpagesheet { height: 700px; background-position: center; background-attachment: fixed; background-size:cover; background-repeat: no-repeat;}
 /*flip anim*/
 .front, .back {width: 100%;}
-.flipper {transition: 0.6s;transform-style: preserve-3d;position: relative;}
+.flipper {transition: 0.6s; transform-style: preserve-3d;position: relative;}
 .front, .back { -webkit-backface-visibility: hidden; backface-visibility: hidden;transition: 0.6s;transform-style: preserve-3d;position: absolute;top: 0;left: 0;}
 .front {z-index: 2;transform: rotateY(0deg);}
 .back {transform: rotateY(-180deg);}

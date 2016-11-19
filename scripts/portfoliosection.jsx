@@ -4,7 +4,7 @@ return (<div>
 			<div id="pframe" className={this.props.setView}>
 			<div id="pframecon">
 				<a target="_blank" href="http://alopeciaapparel.com">
-				<video id="alopecia_apparel" className="pframeimage" width="200" height="150" loop>
+				<video id="alopecia_apparel" className="pframeimage" width="200" height="150" loop webkit-playsinline>
 					<source src="img/workhis/alopecia_apparel.mp4" />
 				</video>
 				</a>
