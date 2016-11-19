@@ -15,7 +15,7 @@ function PriceList(){
 				<table className="table">
 					<tr>
 						<td>Estimated Duration</td>
-						<td>One Week</td>
+						<td>One Month</td>
 					</tr>
                     <tr>
                         <td>SEO</td>
@@ -36,13 +36,13 @@ function PriceList(){
         
 		<div id="ppress" className="col-md-4 col-sm-6 col-xs-12">
 			<div id="ppressh" className="pheather">
-				<h4>Wordpress Site <span className="pricetag">$250</span></h4>
+				<h4>Business Site <span className="pricetag">$1,500</span></h4>
 			</div>
 			<div className="pcontent">
 				<table className="table">
 					<tr>
 						<td>Estimated Duration</td>
-						<td>One Week</td>
+						<td>One Month</td>
 					</tr>
                     <tr>
                         <td>SEO</td>
@@ -54,7 +54,7 @@ function PriceList(){
 					</tr>
 					<tr>
 						<td>Special Notes</td>
-						<td>For individuals and businesses who would like to establish a 4-page site (home, about, contact, services) with a pre-built Wordpress theme that has a functioning contact form.</td>
+						<td>For individuals and businesses who would like to establish a 4-page site (home, about, contact, services) with a customised website. Price includes design, installation, and unique scripts and features.</td>
 					</tr>
 				</table>
 			</div>
