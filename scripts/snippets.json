@@ -1,12 +1,21 @@
 {
-  "snippets": [
+  "forthem": [
     {
-      "number": "1",
-      "article": "How to Strengthen Your Password",
-      "url": "",
-      "forname": "emjayweb",
-      "forsym": "emj",
-      "date": ""
+      "therefore": "emjayweb",
+      "theresym": "emj",
+      "articles": [
+        "article": {
+          "number": "1",
+          "artitle": "How to Strengthen Your Password",
+          "arurl": "",
+          "ardate": ""
+        }
+      ]
+    }, 
+    
+    {
+      "therefore": "brb"
     }
+    
   ]
 }
