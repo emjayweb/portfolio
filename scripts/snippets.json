@@ -1,7 +1,15 @@
 {
   "forthem": [
     {
-      "therefore": "emjayweb"
+      "therefore": "emjayweb",
+      "theresym": "emj",
+        "articles": [
+          {
+            "number": "1",
+            "article": "How to Strengthen Your Password",
+            "url": ""
+          }
+        ]
     }
   ]
 }
