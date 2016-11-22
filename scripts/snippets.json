@@ -17,6 +17,18 @@
             "pubdate": ""
           }
         ]
+    },
+    {
+      "therefore": "CNN",
+      "theresym": "cnn",
+      "articles": [
+        {
+          "number": "3",
+          "article": "Work It",
+          "url": "",
+          "pubdate": ""
+        }
+      ]
     }
   ]
 }
