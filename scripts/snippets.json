@@ -12,7 +12,9 @@
           },
           {
             "number": "2",
-            "article": "Second Article"
+            "article": "Second Article",
+            "url": "",
+            "pubdate": ""
           }
         ]
     }
