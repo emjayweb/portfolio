@@ -6,12 +6,14 @@
         "articles": [
           {
             "number": "1",
+            "tool": "Password Generator",
             "article": "How to Strengthen Your Password",
             "url": "",
             "pubdate": ""
           },
           {
             "number": "2",
+            "tool": "",
             "article": "Second Article",
             "url": "",
             "pubdate": ""
@@ -24,6 +26,7 @@
       "articles": [
         {
           "number": "3",
+          "tool": "",
           "article": "Work It",
           "url": "",
           "pubdate": ""
