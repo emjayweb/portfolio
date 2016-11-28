@@ -10,28 +10,8 @@
             "article": "How to Strengthen Your Password",
             "toolurl": "http://codepen.io/emjayweb/pen/oYGjEE",
             "pubdate": ""
-          },
-          {
-            "number": "2",
-            "tool": "Test Tool",
-            "article": "Second Article",
-            "toolurl": "",
-            "pubdate": ""
           }
         ]
-    },
-    {
-      "therefore": "TEST",
-      "theresym": "test",
-      "articles": [
-        {
-          "number": "3",
-          "tool": "Testing Tool",
-          "article": "Work It",
-          "toolurl": "",
-          "pubdate": ""
-        }
-      ]
     }
   ]
 }
