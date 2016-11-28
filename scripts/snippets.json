@@ -8,27 +8,27 @@
             "number": "1",
             "tool": "Password Generator",
             "article": "How to Strengthen Your Password",
-            "url": "",
+            "toolurl": "http://codepen.io/emjayweb/pen/oYGjEE",
             "pubdate": ""
           },
           {
             "number": "2",
             "tool": "Test Tool",
             "article": "Second Article",
-            "url": "",
+            "toolurl": "",
             "pubdate": ""
           }
         ]
     },
     {
-      "therefore": "CNN",
-      "theresym": "cnn",
+      "therefore": "TEST",
+      "theresym": "test",
       "articles": [
         {
           "number": "3",
           "tool": "Testing Tool",
           "article": "Work It",
-          "url": "",
+          "toolurl": "",
           "pubdate": ""
         }
       ]
